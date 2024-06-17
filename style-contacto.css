@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    
+    width: 50%;
+    margin: auto;
+    height: 2700px;
+    background: linear-gradient(125deg, rgb(255, 213, 136), white) !important; 
+    align-items: center;
+    justify-content: center;
+
+}
+#contenedor{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+h1{
+    padding: 20px;
+    font-size: 150%;
+    text-align: center;
+    margin: 35px auto;
+    font-style: italic;
+    letter-spacing: 9px;
+    
+}
+#botones {
+    text-align: center;
+    margin: 20px;
+    font-size: 120%;
+    padding: 20px;
+}
+#botones a{
+    padding: 10px;
+    text-decoration: none;
+    color: tomato;
+}
+#linea{
+    border-bottom: 2px solid rgb(236, 81, 64);
+}
+#botones a{
+    margin-right: 30px;
+}
+#titulo{
+    text-align: center;
+    font-size: 500%;
+    margin: 2%;
+}
+
+
+table {
+    border: 1px solid #cccccc;
+    width: 80%;
+    border-collapse: collapse;
+    justify-content: center;
+    align-items: center;
+}
+td {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 8px;
+}
+tr {
+    border: 2px solid rgb(255, 255, 255);
+}
+.texto{
+    color: rgb(173, 7, 7);
+    text-align: center;
+}
+
+
+#mapa{
+    align-items: center;
+    justify-content: center;       
+    border: 2px solid rgb(247, 214, 153);
+    background-color: white;
+    margin: 10px auto;
+    padding: 20px;
+    width: 65%;
+    
+}
+article{
+    width: 45%;
+    align-items: center;
+    justify-content: center;  
+}
+
+button{
+    width: 60%;
+    height: 30px;
+    background-color: grey;
+    color: white;
+    margin:10px auto
+}
+textarea{
+    height: 100px;
+    width: 60%;
+}
+input{
+    width: 60%;
+}
+#contenido{
+    display: flex;
+}
+.imagen{
+    align-items: center;
+    justify-content: center;  
+    position: relative;
+    margin: 20px auto;
+    left: 20%;
+    border: 3px solid white;
+    margin: 2px auto;
+}
+
+
+
+
+#redes {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    list-style-type: none;
+}
+#redes a:hover{
+    opacity: 0.5;
+}
